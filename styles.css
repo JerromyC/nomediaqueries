@@ -85,13 +85,13 @@ p {
     justify-content: space-around;
     width: 60%;
     margin: auto;
-    margin-top: clamp(4vh, 5vh, 8vh);
+    margin-top: clamp(3vh, 4vh, 8vh);
 }
 
 .nav-link {
     color: var(--white);
     text-decoration: none;
-    font-size: 18pt;
+    font-size: clamp(22pt, 24pt, 2.5em);
 }
 
 /* Page Content */
@@ -127,11 +127,11 @@ p {
 }
 
 .info-button {
-    width: clamp(30vw, 200px, 40vw);
+    width: clamp(35vw, 200px, 40vw);
     height:  50px;
     background-color: var(--green);
     color: var(--white);
-    font-size: clamp(1.75rem, 10%, 20pt);
+    font-size: clamp(22pt, 24pt, 2.5em);
     margin: auto;
     margin-bottom: 30px;
     padding: 8px;
